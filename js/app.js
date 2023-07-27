@@ -389,7 +389,7 @@ cardapio.metodos = {
                     // CONVERTE A URL 
                     let encode = encodeURI(texto)
                     
-                    let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`
+                    let URL = `https://api.whatsapp.com/send?phone=${CELULAR_EMPRESA}&text=${encode}`
 
                     $("#btnEtapaResumo").attr('href',URL)
                 }
