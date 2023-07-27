@@ -493,7 +493,7 @@ cardapio.templates = {
                 <span class="btn-mais" onclick={cardapio.metodos.aumentarQuantidadeCarrinho('\${id}')}>
                     <i class="fas fa-plus"></i>
                 </span>
-                <span class="btn btn-remove" onclick={cardapio.metodos.removerItemCarrinho('\${id}')}>
+                <span class="btn btn-remove no-mobile" onclick={cardapio.metodos.removerItemCarrinho('\${id}')}>
                     <i class="fa fa-times"></i>
                 </span>
             </div>
